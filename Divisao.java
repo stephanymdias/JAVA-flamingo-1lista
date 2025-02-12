@@ -6,15 +6,13 @@ public class Divisao {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite um valor: ");
-		int numero1 = sc.nextInt();
+		float numero1 = sc.nextFloat();
 		
 		System.out.println("Digite outro valor: ");
-		int numero2 = sc.nextInt();
-		
-		int resultado = numero1 / numero2;
+		float numero2 = sc.nextFloat();
+		float resultado = numero1 / numero2;
 		
 		System.out.println("O resultado é: " + resultado);
-		
 		sc.close();
 	}
 
